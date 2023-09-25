@@ -9,9 +9,14 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.text.Text;
+
+import java.io.File;
 import java.net.URL;
 import java.util.Random;
 import java.util.ResourceBundle;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
+
 
 public class HelloController implements Initializable {
 
@@ -21,6 +26,7 @@ public class HelloController implements Initializable {
     private int correctNumber = 0;
     private boolean isGivenUp = false;
     private boolean isWin = false;
+    private MediaPlayer mediaPlayer;
 
     @FXML
     private TextField guess;
@@ -63,9 +69,13 @@ public class HelloController implements Initializable {
         });
 
         enterButton.setOnMouseClicked(event -> {
-            if(guess.equals("[]")){ return;}
                 guess.clear();
         });
+
+        Media media = new Media(new File("./src/main/resources/win.mp3").toURI().toString());
+
+        mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.setVolume(0.5);
     }
 
     @FXML
@@ -81,6 +91,7 @@ public class HelloController implements Initializable {
 
             isGivenUp = false;
             if (Integer.parseInt(guess.getText()) == randomNumber) {
+                playWinSound();
                 isWin = true;
                 downArrow.setVisible(false);
                 upArrow.setVisible(false);
@@ -151,6 +162,12 @@ public class HelloController implements Initializable {
         alert.setHeaderText(headerText);
         alert.setContentText(contentText);
         alert.showAndWait();
+    }
+
+
+    // Play the audio when the user wins
+    private void playWinSound() {
+        mediaPlayer.play();
     }
 
 

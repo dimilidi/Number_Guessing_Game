@@ -1,6 +1,7 @@
 module com.example.demo1 {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.media; //  include javafx.media module
 
     requires com.almasb.fxgl.all;
 

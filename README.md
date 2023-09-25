@@ -73,8 +73,8 @@ Licensed under the [MIT license](LICENSE).
 
 ## Acknowledgments
 
-I would like to express my sincere gratitude to the following individuals, institutions and sources who have played a significant role in the development of this app:
-- [Random code](https://www.youtube.com/watch?v=F8ahBtXkQzU): Thank you for helping me to export my JavaFK project into an executable jar file with IntelliJ.
-- [SoftUni](https://softuni.bg/): I appreciate the idea and the initial motivation you gave me with the Java console game "Guess A Number"
+Huge thanks to: 
+- [Random code](https://www.youtube.com/watch?v=F8ahBtXkQzU): Thank you for helping me to export my JavaFK project into an executable jar file with IntelliJ
+- [SoftUni](https://softuni.bg/): I appreciate the ideas and the initial motivation you gave me with the Java console game "Guess A Number"
 
 
