@@ -9,20 +9,19 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
    <children>
-      <TextField fx:id="guess" alignment="TOP_LEFT" layoutX="134.0" layoutY="155.0" onAction="#checkGuess" promptText="Make a guess ...">
+      <TextField fx:id="guess" alignment="TOP_LEFT" layoutX="134.0" layoutY="155.0" onAction="#checkGuess" promptText="Type your nuber here ...">
          <font>
             <Font size="26.0" />
          </font>
       </TextField>
-      <Text fill="#3b3b3b" layoutX="167.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make a guess from 0 - 100">
+      <Text fill="#3b3b3b" layoutX="167.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make a guess between 0-100">
          <font>
             <Font size="22.0" />
          </font>
       </Text>
-      <Text fill="#737373" layoutX="93.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number guessing game">
+      <Text fill="#737373" layoutX="93.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number Guessing Game">
          <font>
             <Font name="System Bold" size="37.0" />
          </font>

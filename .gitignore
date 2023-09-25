@@ -4,7 +4,6 @@ target/
 !**/src/test/**/target/
 .idea/
 .mvn/wrapper
-mvnw/
 mvnw.cmd/
 
 ### IntelliJ IDEA ###
