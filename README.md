@@ -60,6 +60,8 @@ To download the file with the game and run it on your computer, follow these ste
 
 ## Screenshots
 
+<img src="./src/main/resources/screen.jpg" width="500">
+
 ## Questions or suggestions
 Feel free to access the <a href="../../discussions">discussions tab</a> as you need.
 
