@@ -22,7 +22,9 @@ A game for guessing a number between 0 and 100
 This is a good game to code because it uses random numbers, loops, and input from the user in a short Java program. You’ll learn how to convert values to different data types, and why you would need to do this.
 
 ## Link to the Game
-[Number Guessing Game](#)
+Here is the desktop version of the game
+[Number Guessing Game](./src/main/resources/demo1.jar)
+[Number Guessing Game JAR](./out/artifacts/demo1_jar/demo1.jar)
 
 ## Screenshots
 
@@ -36,3 +38,11 @@ Contributions to this project are very welcome! We can't do this alone! Feel fre
 ## License
 
 Licensed under the [MIT license](LICENSE).
+
+## Acknowledgments
+
+I would like to express my sincere gratitude to the following individuals, institutions and sources who have played a significant role in the development of this app:
+- [Random code](https://www.youtube.com/watch?v=F8ahBtXkQzU): Thank you for helping me to export my JavaFK project into an executable jar file with IntelliJ.
+- [SoftUni](https://softuni.bg/): I appreciate the idea and the initial motivation you gave me with the Java console game "Guess A Number"
+
+
