@@ -24,9 +24,9 @@ This is a good game to code because it uses random numbers, loops, and input fro
 ## How to play the Game
 You have 2 options:
 
-📌 [download the game](#download)
+📌 [download the game](#download-the-game)
 
-📌 [clone the repository and run the code](#clone_the_repository)
+📌 [clone the repository and run the code](#clone-the-repository)
 
 
 ### Download the game
