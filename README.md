@@ -23,8 +23,7 @@ This is a good game to code because it uses random numbers, loops, and input fro
 
 ## Link to the Game
 Here is the desktop version of the game
-[Number Guessing Game](./src/main/resources/demo1.jar)
-[Number Guessing Game JAR](./out/artifacts/demo1_jar/demo1.jar)
+[Number Guessing Game](https://github.com/dimilidi/Number_Guessing_Game/releases)
 
 ## Screenshots
 
