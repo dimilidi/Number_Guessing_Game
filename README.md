@@ -21,9 +21,42 @@ A game for guessing a number between 0 and 100
 
 This is a good game to code because it uses random numbers, loops, and input from the user in a short Java program. You’ll learn how to convert values to different data types, and why you would need to do this.
 
-## Link to the Game
-Here is the desktop version of the game
-[Number Guessing Game](https://github.com/dimilidi/Number_Guessing_Game/releases)
+## How to play the Game
+You have 2 options:
+
+📌 [download the game](#download)
+
+📌 [clone the repository and run the code](#clone_the_repository)
+
+
+### Download the game
+To download the file with the game and run it on your computer, follow these steps:
+
+1. Download the JAR file by clicking on the [Number Guessing Game JAR](https://github.com/dimilidi/Number_Guessing_Game/releases) link.
+
+2. Open your terminal or command prompt.
+
+3. Navigate to the directory where you downloaded the JAR file.
+
+4. Run the game by entering the following command:
+
+   ```
+   java -jar demo1.jar
+   
+
+### Clone the repository
+ Here are the steps to open and run the game in IntelliJ IDEA:
+1. Open your terminal or command prompt.
+
+2. Clone the Repository
+   ```
+    git clone git@github.com:dimilidi/Number_Guessing_Game.git
+   
+3. Open the Project
+   ```
+   cd /demo1
+4. Run the Application
+   Right-click on the main class and select "Run HelloApplication.main()"
 
 ## Screenshots
 
